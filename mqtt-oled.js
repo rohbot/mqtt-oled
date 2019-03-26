@@ -4,7 +4,7 @@ var i2c = require('i2c-bus'),
   font = require('oled-font-5x7');
  
 var mqtt = require('mqtt')
-var client  = mqtt.connect('mqtt://192.168.0.2:1884')
+var client  = mqtt.connect('mqtt://10.0.0.1')
 
 console.log("Connecting...")
 client.on('connect', function () {
